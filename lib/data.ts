@@ -39,23 +39,23 @@ export const experiencesData = [
     title: "Frontend Freelancer",
     location: "7 Months",
     description:
-      "My journey began as a Freelance Frontend Developer, where I actively contributed to the establishment of a software company in collaboration with a startup incubator. This experience allowed me to cultivate a deep understanding of frontend technologies and laid the foundation for my venture into full-stack development.",
+      "Embarking as a Freelance Frontend Developer, I played a pivotal role in establishing a software company through collaboration with a startup incubator. This experience deepened my understanding of frontend technologies and laid the foundation for my transition into full-stack development.",
     icon: React.createElement(LuGraduationCap),
     date: "2020",
   },
   {
-    title: "Javascript Developer",
+    title: "Javascript Developer - Forgerock",
     location: "2 years",
     description:
-      "For the past two years, I had the privilege of working at Profiq, where my services were brokered to Forgerock. At Forgerock, I served as a JavaScript Software Engineer, specializing in crafting and refining Cypress tests and models in Node.js. Additionally, I tackled tickets in Vue.js, showcasing my versatility across the JavaScript ecosystem.",
+      "In my role at Forgerock, I served as a JavaScript Software Engineer, specializing in crafting and refining Cypress tests and models in Node.js. Additionally, I tackled tickets in Vue.js, showcasing my versatility across the JavaScript ecosystem.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2023",
   },
   {
-    title: "Mentor",
+    title: "Mentor - Czechitas",
     location: "1 year",
     description:
-      "One of the most fulfilling aspects of my career has been my involvement with Czechitas, where I've been actively mentoring a group of aspiring female students. In this role, I lead and mentor these students within the academy, aiming to provide support, motivation, and share my industry experience. Guiding them toward their first tech positions has become a personal mission, and I am committed to fostering diversity and inclusion within the tech community.",
+      "At Czechitas, I actively mentored a group of aspiring female students, leading them within the academy. I aimed to provide support, motivation, and share my industry experience, guiding them toward their first tech positions. This role has been one of the most fulfilling aspects of my career, and I am committed to fostering diversity and inclusion within the tech community.",
     icon: React.createElement(FaReact),
     date: "2022 - present",
   },
