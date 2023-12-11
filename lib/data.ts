@@ -40,7 +40,7 @@ export const experiencesData = [
     location: "7 Months",
     description:
       "Embarking as a Freelance Frontend Developer, I played a pivotal role in establishing a software company through collaboration with a startup incubator. This experience deepened my understanding of frontend technologies and laid the foundation for my transition into full-stack development.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(CgWorkAlt),
     date: "2020",
   },
   {
@@ -56,7 +56,7 @@ export const experiencesData = [
     location: "1 year",
     description:
       "At Czechitas, I actively mentored a group of aspiring female students, leading them within the academy. I aimed to provide support, motivation, and share my industry experience, guiding them toward their first tech positions. This role has been one of the most fulfilling aspects of my career, and I am committed to fostering diversity and inclusion within the tech community.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
 ] as const;
