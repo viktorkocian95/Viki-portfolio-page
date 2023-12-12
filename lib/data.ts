@@ -66,8 +66,9 @@ export const projectsData = [
     title: "Portfolio",
     description:
       "my portfolio page",
-    tags: ["React", "Next.js", "Tailwind"],
+    tags: ["React", "Next.js", "Tailwind", "FramerMotion"],
     imageUrl: vikiPortfolioImg,
+    githubUrl: "https://github.com/viktorkocian95/Viki-portfolio-page"
   },
 
 ] as const;
