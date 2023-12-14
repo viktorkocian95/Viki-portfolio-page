@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import vikiPortfolioImg from "@/public/viki-portfolio.png";
 import vikiImg from "@/public/viki.jpg";
+import nodeAPIImg from "@/public/node-api.png";
 
 export const portfolioImg = {imageUrl: vikiImg}
 
@@ -69,6 +70,14 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind", "FramerMotion"],
     imageUrl: vikiPortfolioImg,
     githubUrl: "https://github.com/viktorkocian95/Viki-portfolio-page"
+  },
+  {
+    title: "Node API",
+    description:
+      "Node.js api with authentification (in progress)",
+    tags: ["Node", "Prisma", "PostgreSQL"],
+    imageUrl: nodeAPIImg,
+    githubUrl: "https://github.com/viktorkocian95/node-api"
   },
 
 ] as const;
