@@ -37,12 +37,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Frontend Freelancer",
-    location: "7 Months",
+    title: "Fullstack developer - Roier",
+    location: "since 2024",
     description:
-      "Embarking as a Freelance Frontend Developer, I played a pivotal role in establishing a software company through collaboration with a startup incubator. This experience deepened my understanding of frontend technologies and laid the foundation for my transition into full-stack development.",
+        "Roier – A FinTech Investment Application. As part of the innovative team at Roier, my role is pivotal in developing a seamless user experience for this cutting-edge FinTech investment app. My daily responsibilities oscillate between full-stack tasks, with a significant focus on enhancing the frontend landscape. Utilizing a modern tech stack, I leverage Next.js and Nest.js to create robust and scalable applications, with Prisma and PostgreSQL managing our relational data effectively, while MongoDB supports our needs for NoSQL data operations. My goal is to contribute to the simplification of investment processes, ensuring that Roier stands out in the digital finance realm.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020",
+    date: "2024 - present",
+  },
+  {
+    title: "Mentor - Czechitas",
+    location: "1 year",
+    description:
+        "At Czechitas, I actively mentored a group of aspiring female students, leading them within the academy. I aimed to provide support, motivation, and share my industry experience, guiding them toward their first tech positions. This role has been one of the most fulfilling aspects of my career, and I am committed to fostering diversity and inclusion within the tech community.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
   {
     title: "Javascript Developer - Forgerock",
@@ -53,13 +61,14 @@ export const experiencesData = [
     date: "2020 - 2023",
   },
   {
-    title: "Mentor - Czechitas",
-    location: "1 year",
+    title: "Frontend Freelancer",
+    location: "7 Months",
     description:
-      "At Czechitas, I actively mentored a group of aspiring female students, leading them within the academy. I aimed to provide support, motivation, and share my industry experience, guiding them toward their first tech positions. This role has been one of the most fulfilling aspects of my career, and I am committed to fostering diversity and inclusion within the tech community.",
+        "Embarking as a Freelance Frontend Developer, I played a pivotal role in establishing a software company through collaboration with a startup incubator. This experience deepened my understanding of frontend technologies and laid the foundation for my transition into full-stack development.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - present",
+    date: "2020",
   },
+
 ] as const;
 
 export const projectsData = [
@@ -89,13 +98,19 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Redux",
+  "Context API",
   "Framer Motion",
   "Next.js",
   "Node.js",
   "Express",
+  "Nest.js",
   "Prisma",
   "MongoDB",
   "PostgreSQL",
+  "Cypress",
   "Git",
+  "Mentoring",
+  "Problem-Solving",
+  "Effective Communication",
+  "Adaptability"
 ] as const;

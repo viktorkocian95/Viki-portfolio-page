@@ -20,11 +20,12 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-      I am a dedicated Full Stack Developer with three years of experience in JavaScript development. From freelancing and contributing to a startup, I transitioned to a role at Profiq, where my services were brokered to Forgerock. Specializing in Cypress tests and Node.js models, I also worked on Vue.js tickets, showcasing versatility in the JavaScript ecosystem. Actively mentoring aspiring female students at Czechitas, I lead and support them in their tech journeys, emphasizing diversity and inclusion. My commitment to continuous learning and adaptability is reflected in my professional journey, where I bring a unique blend of technical expertise and mentorship skills.
+      {/*I am a dedicated Full Stack Developer with three years of experience in JavaScript development. From freelancing and contributing to a startup, I transitioned to a role at Profiq, where my services were brokered to Forgerock. Specializing in Cypress tests and Node.js models, I also worked on Vue.js tickets, showcasing versatility in the JavaScript ecosystem. Actively mentoring aspiring female students at Czechitas, I lead and support them in their tech journeys, emphasizing diversity and inclusion. My commitment to continuous learning and adaptability is reflected in my professional journey, where I bring a unique blend of technical expertise and mentorship skills.*/}
+          As a Full Stack Developer with three years of experience, my journey in JavaScript development spans from freelancing to impactful roles . I'm dedicated to mentoring through Czechitas, promoting diversity in tech. My pursuit of excellence is fueled by continuous learning and a balance of technical and leadership skills.
    </p>
 
       <p>
-        <span className="italic">Outside of coding,</span>,  I am a fitness enthusiast and a passionate musician, fostering a well-rounded approach to life.
+        <span className="italic">Outside of coding,</span> my passions for fitness and music contribute to a holistic approach to personal and professional growth.
       </p>
     </motion.section>
   );
