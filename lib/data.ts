@@ -1,7 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import vikiPortfolioImg from "@/public/viki-portfolio.png";
 import vikiImg from "@/public/viki.jpg";
 import nodeAPIImg from "@/public/node-api.png";
@@ -16,10 +14,6 @@ export const links = [
   {
     name: "About",
     hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
   },
   {
     name: "Skills",
@@ -37,12 +31,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Fullstack developer - Roier",
+    title: "Frontend Developer - Medical System a.s.",
     location: "since 2024",
+    description:
+        "I worked for one year using Vue.js and Nuxt at Medical System a.s., where I implemented automated testing and set up CI/CD pipelines for both on-premise and cloud deployments. I also contributed to the DevOps transition by assisting with the migration from on-premise infrastructure to OCI, including Dockerizing projects, orchestrating deployments using Kubernetes and Kustomize, creating Docker Compose configurations, and managing GitLab pipelines, container registries, and runner setups.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
+  },
+    {
+    title: "Fullstack developer - Roier",
+    location: "few months",
     description:
         "Roier – A FinTech Investment Application. As part of the innovative team at Roier, my role is pivotal in developing a seamless user experience for this cutting-edge FinTech investment app. My daily responsibilities oscillate between full-stack tasks, with a significant focus on enhancing the frontend landscape. Utilizing a modern tech stack, I leverage Next.js and Nest.js to create robust and scalable applications, with Prisma and PostgreSQL managing our relational data effectively, while MongoDB supports our needs for NoSQL data operations. My goal is to contribute to the simplification of investment processes, ensuring that Roier stands out in the digital finance realm.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2024",
   },
   {
     title: "Mentor - Czechitas",
@@ -97,9 +99,9 @@ export const skillsData = [
   "Tailwind",
   "JavaScript",
   "TypeScript",
+  "Vue.js",
+  "Nuxt.js",
   "React",
-  "Context API",
-  "Framer Motion",
   "Next.js",
   "Node.js",
   "Express",
@@ -109,6 +111,12 @@ export const skillsData = [
   "PostgreSQL",
   "Cypress",
   "Git",
+  "Docker",
+  "Deployment",
+  "Kubernetes",
+  "OCI",
+  "Kustomize",
+  "Keycloak (basic)",
   "Mentoring",
   "Problem-Solving",
   "Effective Communication",
