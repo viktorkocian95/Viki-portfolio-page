@@ -20,12 +20,11 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-      {/*I am a dedicated Full Stack Developer with three years of experience in JavaScript development. From freelancing and contributing to a startup, I transitioned to a role at Profiq, where my services were brokered to Forgerock. Specializing in Cypress tests and Node.js models, I also worked on Vue.js tickets, showcasing versatility in the JavaScript ecosystem. Actively mentoring aspiring female students at Czechitas, I lead and support them in their tech journeys, emphasizing diversity and inclusion. My commitment to continuous learning and adaptability is reflected in my professional journey, where I bring a unique blend of technical expertise and mentorship skills.*/}
-          As a Full Stack Developer with three years of experience, my journey in JavaScript development spans from freelancing to impactful roles . I'm dedicated to mentoring through Czechitas, promoting diversity in tech. My pursuit of excellence is fueled by continuous learning and a balance of technical and leadership skills.
-   </p>
+        I'm Viktor – a Frontend Developer with 3 years of experience, passionate about crafting engaging user interfaces with Vue.js and Nuxt. I've embraced diverse challenges across team projects and roles, gaining robust skills in QA automation alongside frontend development. I also bring experience with React, full-stack development, and a foundational understanding of DevOps. I actively mentor through Czechitas, contributing to a more diverse and innovative tech community.
+      </p>
 
       <p>
-        <span className="italic">Outside of coding,</span> my passions for fitness and music contribute to a holistic approach to personal and professional growth.
+        <span className="italic">Outside of work,</span> I'm into fitness, playing the piano, musical theater singing, and martial arts – all of which keep my creative and disciplined sides well-balanced.
       </p>
     </motion.section>
   );

@@ -32,19 +32,27 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
-  {
-    title: "Fullstack developer - Roier",
-    location: "since 2024",
+    {
+      title: "Frontend Developer - Medical System a.s.",
+      location: "1 year",
+      description:
+          "At Medical System a.s. for one year, I worked primarily as a Frontend Developer using Vue.js and Nuxt to build robust UIs, while supporting QA with automated tests and mentoring. I also contributed to the DevOps transition by setting up CI/CD pipelines for on-premise and OCI cloud deployments, including Dockerizing projects, orchestrating deployments with Kubernetes and Kustomize, and managing GitLab pipelines and container registries.",
+      icon: React.createElement(CgWorkAlt),
+      date: "2024 - 2025",
+    },
+    {
+    title: "Fullstack Developer - Roier",
+    location: "Few months",
     description:
-        "Roier – A FinTech Investment Application. As part of the innovative team at Roier, my role is pivotal in developing a seamless user experience for this cutting-edge FinTech investment app. My daily responsibilities oscillate between full-stack tasks, with a significant focus on enhancing the frontend landscape. Utilizing a modern tech stack, I leverage Next.js and Nest.js to create robust and scalable applications, with Prisma and PostgreSQL managing our relational data effectively, while MongoDB supports our needs for NoSQL data operations. My goal is to contribute to the simplification of investment processes, ensuring that Roier stands out in the digital finance realm.",
+        "At Roier, a FinTech Investment App, I developed a seamless user experience by tackling both frontend and backend tasks. Using Next.js, Nest.js, Prisma, PostgreSQL, and MongoDB, I contributed to building scalable applications.",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - present",
+    date: "2024",
   },
   {
     title: "Mentor - Czechitas",
-    location: "1 year",
+    location: "3 years",
     description:
-        "At Czechitas, I actively mentored a group of aspiring female students, leading them within the academy. I aimed to provide support, motivation, and share my industry experience, guiding them toward their first tech positions. This role has been one of the most fulfilling aspects of my career, and I am committed to fostering diversity and inclusion within the tech community.",
+        "At Czechitas, I mentored aspiring female students, providing support, motivation, and industry insights to help them land their first tech roles, while fostering diversity and inclusion.",
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
@@ -52,7 +60,7 @@ export const experiencesData = [
     title: "Javascript Developer - Forgerock",
     location: "2 years",
     description:
-      "In my role at Forgerock, I served as a JavaScript Software Engineer, specializing in crafting and refining Cypress tests and models in Node.js. Additionally, I tackled tickets in Vue.js, showcasing my versatility across the JavaScript ecosystem.",
+        "At Forgerock, I worked as a JavaScript Engineer, focusing on Cypress test automation, developing Node.js models, and handling Vue.js tasks.",
     icon: React.createElement(CgWorkAlt),
     date: "2020 - 2023",
   },
@@ -60,11 +68,10 @@ export const experiencesData = [
     title: "Frontend Freelancer",
     location: "7 Months",
     description:
-        "Embarking as a Freelance Frontend Developer, I played a pivotal role in establishing a software company through collaboration with a startup incubator. This experience deepened my understanding of frontend technologies and laid the foundation for my transition into full-stack development.",
+        "As a Freelance Frontend Developer, I helped establish a software company with a startup incubator, deepening my skills in frontend development and laying the foundation for full-stack growth.",
     icon: React.createElement(CgWorkAlt),
     date: "2020",
-  },
-
+  }
 ] as const;
 
 export const projectsData = [
@@ -93,9 +100,9 @@ export const skillsData = [
   "Tailwind",
   "JavaScript",
   "TypeScript",
+  "Vue.js",
+  "Nuxt.js",
   "React",
-  "Context API",
-  "Framer Motion",
   "Next.js",
   "Node.js",
   "Express",
@@ -105,6 +112,12 @@ export const skillsData = [
   "PostgreSQL",
   "Cypress",
   "Git",
+  "Docker",
+  "Deployment",
+  "Kubernetes",
+  "OCI",
+  "Kustomize",
+  "Keycloak (basic)",
   "Mentoring",
   "Problem-Solving",
   "Effective Communication",
